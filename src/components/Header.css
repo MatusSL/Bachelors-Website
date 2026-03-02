@@ -1,0 +1,62 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+
+  transition:
+    border-bottom 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.header-scrolled {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.name-header {
+  color: #303030;
+}
+
+ul {
+  list-style: none;
+}
+
+.tag-list {
+  display: flex;
+  color: #303030;
+  font-size: large;
+}
+
+.tag-list > *:not(:last-child) {
+  margin-right: 4rem;
+}
+
+.tag-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.tag-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.tag-item:hover::after {
+  transform: scaleX(1);
+}

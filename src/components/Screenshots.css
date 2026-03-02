@@ -1,0 +1,10 @@
+.screenshots-box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 5%;
+  padding: 2em;
+}
+
+.screenshots-header {
+    font-size: larger;
+}

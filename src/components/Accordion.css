@@ -1,0 +1,54 @@
+.accordion {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 16px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+  background: white;
+  border: none;
+  font-size: 1rem;
+}
+
+.accordion-header:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.accordion-arrow {
+  transition: transform 0.25s ease;
+}
+
+.accordion-arrow.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.accordion-inner {
+  padding: 16px 20px;
+  background: white;
+}
+
+.report-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.report-title {
+  font-size: larger;
+  font-weight: 300;
+}

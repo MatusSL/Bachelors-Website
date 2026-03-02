@@ -1,0 +1,87 @@
+#main {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.main-header > div {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 12%;
+  font-weight: 200;
+}
+
+.info-section {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.info-card {
+  flex: 1;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 24px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.info-card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1e1e1e;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-label {
+  font-weight: 600;
+}
+
+.info-value {
+  color: #333;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
