@@ -1,7 +1,7 @@
 export const weeeklyReports = [
   {
     id: 1,
-    text: "Vytvoril som flowchart diagram znázorňujúci priebeh konverzácie chatbota s používateľom",
+    text: "Návrh flowchart diagramu znázorňujúci priebeh konverzácie chatbota s používateľom",
     date: "(2.3. - 8.3.)"
   },
   {
