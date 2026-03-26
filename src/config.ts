@@ -11,7 +11,7 @@ export const weeeklyReports = [
   },
   {
     id: 3,
-    text: "",
+    text: "Pokračovanie vo vývoji chatbota.",
     date: "(16.3. - 22.3.)",
   },
   {
