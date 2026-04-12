@@ -16,17 +16,17 @@ export const weeeklyReports = [
   },
   {
     id: 4,
-    text: "",
+    text: "Tvorba sequence diagramu znázorňujúci interakciu medzi chatbotom a používateľom počas generovania testovacieho checklistu.",
     date: "(23.3. - 29.3.)",
   },
   {
     id: 5,
-    text: "",
+    text: "Tvorba aktivity diagramu znázorňujúci proces generovania testovacieho checklistu v chatbote.",
     date: "(30.3. - 5.4.)",
   },
   {
     id: 6,
-    text: "",
+    text: "Pokračovanie vo vývoji chatbota a implementácia generovania testovacieho checklistu.",
     date: "(6.4. - 12.4.)",
   },
   {
