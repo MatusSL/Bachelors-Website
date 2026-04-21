@@ -9,7 +9,7 @@ const WeeklyReport = () => {
       <div className="dropdown-header">
         <span>Týždenný denník</span>
         <a href="/Bachelors-Website/prezentacia.pptx" download>
-          Stiahnuť prezentáciu
+          Download
         </a>
         <div className="underline"></div>
       </div>
