@@ -31,12 +31,12 @@ export const weeeklyReports = [
   },
   {
     id: 7,
-    text: "",
+    text: "Implementácia authentifikácie a autorizácie pre chatbota, aby bolo možné zabezpečiť prístup k citlivým informáciám a funkciám.",
     date: "(13.4. - 19.4.)",
   },
   {
     id: 8,
-    text: "",
+    text: "Implementácia funkcie pre export vygenerovaného checklistu do Excel tabuľky",
     date: "(20.4. - 26.4.)",
   },
   {
