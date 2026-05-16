@@ -41,28 +41,18 @@ export const weeeklyReports = [
   },
   {
     id: 9,
-    text: "",
+    text: "Pokračovanie vo vývoji chatbota",
     date: "(27.4. - 3.5.)",
   },
   {
     id: 10,
-    text: "",
+    text: "Testovanie a ladenie chatbota, aby sa zabezpečila jeho správna funkčnosť a použiteľnosť.",
     date: "(4.5. - 10.5.)",
   },
   {
     id: 11,
-    text: "",
+    text: "Testovanie externými testermi a získavanie spätnej väzby na zlepšenie funkčnosti a použiteľnosti chatbota.",
     date: "(11.5. - 17.5.)",
-  },
-  {
-    id: 12,
-    text: "",
-    date: "(18.5. - 24.5.)",
-  },
-  {
-    id: 13,
-    text: "",
-    date: "(25.5.)",
   },
 ];
 
