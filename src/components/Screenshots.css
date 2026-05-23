@@ -8,3 +8,37 @@
 .screenshots-header {
     font-size: larger;
 }
+
+.screenshots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.screenshot-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screenshot-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+.screenshot-img:hover {
+  transform: scale(1.02);
+}
+
+.screenshot-caption {
+  margin-top: 0.6em;
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+}

@@ -6,8 +6,12 @@ const Work = () => {
       <span className="work-header">Práca:</span>
       <div>
         <div className="thesis-item">
-          {/* Placeholder */}
-          <a href="#" target="_blank" className="thesis-link">
+          <a
+            href={`${import.meta.env.BASE_URL}bakalarska_praca.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="thesis-link"
+          >
             Zobraziť prácu
           </a>
         </div>
