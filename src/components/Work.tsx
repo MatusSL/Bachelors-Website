@@ -7,7 +7,7 @@ const Work = () => {
       <div>
         <div className="thesis-item">
           <a
-            href={`${import.meta.env.BASE_URL}bakalarska_praca.pdf`}
+            href={`${import.meta.env.BASE_URL}bp_final.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="thesis-link"
